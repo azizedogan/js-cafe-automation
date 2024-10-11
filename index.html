@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafe Otomasyonu </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="buttons">
+        <button><a href="index.html"></a>Anasayfa</button>
+        <button><a href="menu.html">Menü</a></button>
+        <button><a href="add-product.html">Ürün Ekle</a></button>
+    </div>
+
+    <div class="row">
+        <div class="cafe">
+            <div class="table" id="table1" data-status="empty">Masa 1
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table2" data-status="empty">Masa 2
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table3" data-status="empty">Masa 3
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table4" data-status="empty">Masa 4
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table5" data-status="empty">Masa 5
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table6" data-status="empty">Masa 6
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table7" data-status="empty">Masa 7
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table8" data-status="empty">Masa 8
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table9" data-status="empty">Masa 9
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table10" data-status="empty">Masa 10
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table11" data-status="empty">Masa 11
+                <span class="table-price"></span>
+            </div>
+            <div class="table" id="table12" data-status="empty">Masa 12
+                <span class="table-price"></span>
+            </div>
+        </div>
+
+        <div id="menuModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Menü</h2>
+                <ul id="menuList">
+                    <!-- <li>
+                        <img src="img/pizza.jpg" alt="Pizza">
+                        <h5>Pizza</h5>
+                        <span>-</span>
+                        <span>150 TL</span>
+                        <span>+</span>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div id="orderSummary">
+            <h2> Sipariş Özeti </h2>
+            <ul id="orderList">
+
+            </ul>
+            <p>Toplam: <span id="totalPrice">0</span> TL</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
